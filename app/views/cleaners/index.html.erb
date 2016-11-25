@@ -1,0 +1,10 @@
+<h1>If Logic Cleaner V0.1</h1>
+
+<p>
+  Please enter the code you would like to clean.
+</p>
+
+<%= form_tag "cleaner", id: "input-form" do %>
+  <%= text_area_tag "snippet", nil, rows: 35, cols: 100 %>
+  <%= submit_tag "Submit" %>
+<% end %>
